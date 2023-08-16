@@ -1,5 +1,8 @@
 package com.example.affirmation.model
 
-data class Affirmation (var stringResourceId: Int){
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+data class Affirmation (@StringRes var stringResourceId: Int, @DrawableRes var imageResourceId:Int){
 
 }
