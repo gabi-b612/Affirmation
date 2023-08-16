@@ -14,7 +14,5 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.TextView.text = Datasource().loadAffirmations().size.toString()
     }
 }
